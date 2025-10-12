@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Полупроводничка индустрија и Србија - међусобна (не)повезаност</title>
+
+		<meta name="description" content="Prompt Engineering for Yandex 2025 - Workshop">
+		<meta name="author" content="Vladimir Milovanović">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/sky.css" id="theme">
+		<!--<link rel="stylesheet" href="dist/theme/blood.css" id="theme">-->
+		<!--<link rel="stylesheet" href="dist/theme/beige.css" id="theme">-->
+		<!--<link rel="stylesheet" href="dist/theme/white.css" id="theme">-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<style>
+				h1, h2, h3, h4, h5, h6 {
+				  text-transform: none !important;
+				}
+			</style>
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h2>Полупроводничка индустрија и Србија</h2>
+					<h3>&mdash; међусобна (не)повезаност &mdash;</h3>
+					<img src="./slike/logo/unikg_logo.png" height="123">
+					<p>
+						<strong>Владимир Миловановић</strong>
+						<br><small><a href="mailto:vlada@kg.ac.rs">vlada@kg.ac.rs</a></small><br>
+						<!--<small>ванредни професор</small><br>-->
+						
+						<small>Центар за интегрисане системе<br>
+						       Катедра за електротехнику и рачунарство<br>
+						       Факултет инжењерских наука Универзитета у Крагујевцу</small>
+					</p>
+				</section>
+
+				<section>
+					<h3 style="text-align:left;">О мени</h3>
+					<span class="fragment"><p style="text-align:left;">
+						Образовање:
+						<ul style="list-style-type:disc;">
+							<li><em>Дипл. ел. инж.</em> &mdash; ЕТФ у Београду, 2005.</li>
+							<li><em>Др</em> &mdash; Технички универзитет у Делфту, 2010.</li>
+						</ul>
+					</p></span>
+					<span class="fragment"><p style="text-align:left;">
+						Академско искуство:
+						<ul style="list-style-type:disc;">
+							<li>2011-13. - Технички универзитет у Бечу</li>
+							<li>2014-15. - Калифорнијски универзитет, Беркли</li>
+						</ul>
+					</p></span>
+					<span class="fragment"><p style="text-align:left;">
+						Тренутно:
+						<ul style="list-style-type:disc;">
+							<li>ванредни проф. &mdash; Универзитет у Крагујевцу</li>
+							<li>оснивач, власник и директор једног стартапа</li>
+						</ul>
+					</p></span>
+					
+				</section>
+
+				<section data-auto-animate>
+					<h3>Шта су то полупроводници?</h3>
+					<h4 class="fragment">&mdash; (н)и изолатори (н)и проводници &mdash;</h4>
+					<p class="fragment" style="text-align:left;">
+						Полупроводник је материјал који има нека својства проводника и својства изолатора.
+					</p>
+					<img class="fragment" src="./slike/PeriodicTableSemis.png" height="400">
+					<!--<img src="./slike/PureSilicon.jpg" height="400">-->
+				</section>
+				<section data-auto-animate>
+					<h3>Шта су то полупроводници?</h3>
+					<h4>&mdash; (н)и изолатори (н)и проводници &mdash;</h4>
+					<p style="text-align:left;">
+						Полупроводник је материјал који има нека својства проводника и својства изолатора.
+					</p>
+					<img src="./slike/PeriodicTableSemis.png" height="400">
+					<img src="./slike/PureSilicon.jpg" height="400">
+				</section>
+
+				<section>
+					<h3>Доба полопроводника<sup>*</sup></h3>
+					<img src="./slike/Bardeen_Shockley_Brattain_1948.jpg" width="590">
+					<small class="fragment">Џон Бардин, Вилијам Шокли, Волтер Братен - Нобелова награда за <b>физику</b> 1956.</small>
+					<small><sup>*</sup><a href="http://tnt.etf.bg.ac.rs/~peja/">Предраг Пејовић</a>, "<a href="https://www.youtube.com/watch?v=lB7oWFKs_LM"><em>Доба полупроводника: када, зашто, где и како је почело?</em></a>" 2023.</small>
+				</section>
+
+				<section>
+					<h3>Транзистор &mdash; двојака употреба</h3>
+					<h4>Несумњиво најзначајнија полупроводничка направа</h4>
+					<img class="fragment" src="./slike/og-large-amplifier-concept.png" height="405">
+					<img class="fragment" src="./slike/toggle-switches-1000x1000.webp" height="405">
+					<small class="fragment">Транзистор као <strong>појачавач</strong> (сигнала) и као (електрично контролисани) прекидач.</small>
+				</section>
+
+				<section>
+					<h3>Интегрисана (електрична) кола</h3>
+					<!--<h3>Монолитна интегрисана кола</h3>-->
+					<h4>Више (милијарди) транзистора на једном чипу.</h4>
+					<img src="./slike/kilby-solid-circuit.jpg" height="460">
+					<small>Прво интегрисано коло из 1958. &mdash; Џек Килби, Нобелова награда за физику 2000.</small>
+				</section>
+
+				<section data-auto-animate>
+					<h3>Савремена интегрисана кола</h3>
+					<img src="./slike/sandy_bridge_die_shot-1.jpg" height="515">
+					<!--<img src="./slike/IntelCorei913900K.webp" height="515">-->
+					<small>Четворојезгарни Intel Sandy Bridge микропроцесор из 2012. године</small>
+				</section>
+				<section data-auto-animate>
+					<h3>Савремена интегрисана кола</h3>
+					<!--<img src="./slike/sandy_bridge_die_shot-1.jpg" height="515">-->
+					<img src="./slike/IntelCorei913900K.webp" height="515">
+					<small>Intel Core i9 13900K Raptor Lake микропроцесор из 2022. године</small>
+				</section>
+
+				<section>
+					<h3>Полупроводничка индустрија</h3>
+					<h4>Како од песка стићи до транзистора и интегрисаних кола...</h4>
+					<img src="./slike/Sand2Chip.jpg" width="910">
+					<img src="./slike/Sand2Chip.png" width="910">
+					Најнапреднији поступак масовне производње.
+				</section>
+
+				<section>
+					<h3>Пројектовање + произовдња = чип</h3>
+					<img class="fragment" src="./slike/IC_fabrication.png" width="910">
+					<small class="fragment">A. Shamsoshoara, A. Korenda, F. Afghah, S. Zeadally, <em>A Survey on Physical Unclonable Function (PUF)-based Security Solutions for Internet of Things</em>, <a href="https://arxiv.org/abs/1907.12525">arXiv:1907.12525</a></small>
+				</section>
+
+				<section>
+					<h3>Приходи полупроводничке инд.</h3>
+					<table>
+						<caption>Годишњи приходи од продаје у 2024.</caption>
+						<tr>
+							<th>индустрија</th>
+							<th>приход</th>
+							<th>однос</th>
+						</tr>
+						<tr>
+							<td>полупроводничка</td>
+							<td>0,63Б$</td>
+							<td>1x</td>
+						</tr>
+						<tr>
+							<td>софтверска</td>
+							<td>0,73Б$</td>
+							<td>1,15x</td>
+						</tr>
+						<tr>
+							<td>авио</td>
+							<td>0,99Б$</td>
+							<td>1,6x</td>
+						</tr>
+						<tr>
+							<td>фармацеутска</td>
+							<td>1,64Б$</td>
+							<td>2,5x</td>
+						</tr>
+						<tr>
+							<td>аутомобилска</td>
+							<td>4,4Б$</td>
+							<td>7x</td>
+						</tr>
+						<tr>
+							<td>нафтна и гасна</td>
+							<td>6,1Б$</td>
+							<td>9,5x</td>
+						</tr>
+						<tr>
+							<td>банкарска</td>
+							<td>7Б$</td>
+							<td>11x</td>
+						</tr>
+					</table> 
+				</section>
+
+				<section>
+					<h3>Тржишна капитализација пп инд.</h3>
+					<table>
+						<caption>Вредности на јавном тржишту акција</caption>
+						<tr>
+							<th>индустрија</th>
+							<th>приход</th>
+							<th>однос</th>
+						</tr>
+						<tr>
+							<td>полупроводничка</td>
+							<td>9,5Б$</td>
+							<td>1x</td>
+						</tr>
+						<tr>
+							<td>софтверска</td>
+							<td>15Б$</td>
+							<td>1,5x</td>
+						</tr>
+						<tr>
+							<td>авио</td>
+							<td>0,3Б$</td>
+							<td>0,03x</td>
+						</tr>
+						<tr>
+							<td>фармацеутска</td>
+							<td>6,5Б$</td>
+							<td>0,7x</td>
+						</tr>
+						<tr>
+							<td>аутомобилска</td>
+							<td>3Б$</td>
+							<td>0,3x</td>
+						</tr>
+						<tr>
+							<td>нафтна и гасна</td>
+							<td>7Б$</td>
+							<td>0,75x</td>
+						</tr>
+						<tr>
+							<td>банкарска</td>
+							<td>13Б$</td>
+							<td>1,4x</td>
+						</tr>
+					</table> 
+				</section>
+
+				<section>
+					<h3>Однос цене и продаје пп инд.</h3>
+					<table>
+						<caption>Јавни капитал/приходи за 2024.</caption>
+						<tr>
+							<th>индустрија</th>
+							<th>однос Ц/П</th>
+						</tr>
+						<tr>
+							<td>полупроводничка</td>
+							<td>15x</td>
+						</tr>
+						<tr>
+							<td>софтверска</td>
+							<td>20x</td>
+						</tr>
+						<tr>
+							<td>авио</td>
+							<td>0,3x</td>
+						</tr>
+						<tr>
+							<td>фармацеутска</td>
+							<td>4x</td>
+						</tr>
+						<tr>
+							<td>аутомобилска</td>
+							<td>0,7x</td>
+						</tr>
+						<tr>
+							<td>нафтна и гасна</td>
+							<td>1,15x</td>
+						</tr>
+						<tr>
+							<td>банкарска</td>
+							<td>1,85x</td>
+						</tr>
+					</table> 
+				</section>
+
+				<section>
+					<h3>Објашњење "парадокса"</h3>
+					<p class="fragment" style="text-align:left;">
+						Приход рангира индустрије по данашњем обиму продаје, а тржишна капитализација рангира индустрије по садашњој вредности очекиваног профита који ће доћи у будућности.
+					</p><p class="fragment" style="text-align:left;">
+						Дакле, индустрија може бити „мала“ по приходима, али „огромна“ по тржишној вредности ако инвеститори мисле да ће се сваки долар од њене продаје претворити у велики трајан, брзорастући новчани ток.
+					</p><p class="fragment" style="text-align:left;">
+						Tржиште нам говори да полупроводници имају супериорну економију и изгледе за будући раст.
+					</p>
+				</section>
+
+				<section>
+					<h3>Стратешки значај ПП индустрије</h3>
+					<p style="text-align:left;">
+						Сваки дигитални уређај има чип(ове) у себи те контрола полупроводничке индустрије има практичан утицај на све остале индустрије.
+					</p>
+					<ul style="list-style-type:disc;">
+						<li class="fragment">Одбрана и национална безбедност.</li>
+						<li class="fragment">Геополитички утицај кроз ланце снабдевања.</li>
+						<li class="fragment">Лидери у чиповима воде и у иновацијама.</li>
+						<li class="fragment">Екстремно тежак и захтеван улазак у игру превасходно услед недостатка образованих кадрова, високих улагања и дуготрајног процеса изградње кључне инфраструктуре.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Законодавци и законодавство</h3>
+					<ul style="list-style-type:disc;">
+						<li class="fragment">САД: CHIPS and Science Act, август 2022.</li>
+						<ul style="list-style-type:circle;">
+							<li class="fragment">"Creating Helpful Incentives to Produce Semiconductors" for America Act</li>
+							<li class="fragment">280 милијарди долара за истраживање и производњу полупроводника на тлу САД</li>
+						</ul>
+						<li class="fragment">ЕУ: European Chips Act (ECA), септембар 2023.</li>
+						<ul style="list-style-type:circle;">
+							<li class="fragment">43 милијарде евра с циљем подизања удела у производњи са 10 на 20% до 2030. године</li>
+						</ul>
+						<li class="fragment">И други: Кина, Индија, Јапан, Кореја, Тајван, Вијетнам, Малезија, Сингапур, УК, Канада,...</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Дешавања из суседства</h3>
+					<ul style="list-style-type:disc;">
+						<li class="fragment">Позив ЕК за отварање тзв. Chips Competence Centre (CCC) у свим државама чланицама ЕУ</li>
+						<li class="fragment">Кроз средства ECA Хрватска 1. марта оснива:</li>
+						<ul style="list-style-type:circle;">
+							<li class="fragment"><a href="https://www.croris.hr/projekti/projekt/12849">Hrvatski centar kompetentnosti za poluvodiče</a></li>
+							<li class="fragment">загребачки <a href="https://www.fer.unizg.hr/">ФЕР</a> добија 5 од укупно 8м евра</li>
+						</ul>
+						<li class="fragment">И Словенија преко <a href="https://fe.uni-lj.si/">Fakulteta za elektrotehniko</a></li>
+						<ul style="list-style-type:circle;">
+							<li class="fragment">Slovenski kompetenčni center za čipe in polprevodniške tehnologije - <a href="https://www.cc-chip.si/">CC Chip/KC Čip.SI</a>
+							</li>
+						</ul>
+						<li class="fragment">Други отварају своје центре компетентности: Бугарска, Румунија, Мађарска, Грчка, Малта,...</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Пројектовање и производња</h3>
+					<p style="text-align:left;">
+						Полупроводничка индустрија се састоји из пројектовања и производње интегрисаних кола.
+					</p>
+					<p style="text-align:left;">
+						Половина укупних прихода је у <em>пројектовању</em>, а заправо носи и већински део профита, само Nvidia је у 2024. приходовала 124 милијарде $.
+					</p>
+					<p style="text-align:left;">
+						У производњу улази и паковање и тестирање (Outsourced Semiconductor Assembly and Test).
+					</p>
+				</section>
+
+				<section>
+					<h3>Србија и њено место</h3>
+					Историјски смо стајали јако добро кроз Еи Ниш
+					<img src="./slike/logo/Ei_logotip.png" height="55">
+					<br>
+					Електронскa индустријa Ниш у стечају од 2016.
+					<img src="./slike/Ei_Holding_Nis.jpg" height="380">
+				</section>
+
+				<section>
+					<h3>Дијаспора &mdash; наш најјачи адут</h3>
+					<p class="fragment">
+						Редовни професори на најбољим светским универзитетима у области интегрисаних кола
+					</p>
+					<img class="fragment" src="./slike/nikolic.jpg" height="210" width="150">
+					<img class="fragment" src="./slike/vlada.jpg" height="210" width="150">
+					<img class="fragment" src="./slike/Dejan_Markovic.jpg" height="210" width="150">
+					<ul style="list-style-type:disc;">
+						<li class="fragment">Боривоје Николић</li>
+						<li class="fragment">Владимир Стојановић</li>
+						<li class="fragment">Дејан Марковић</li>
+						<li class="fragment">и још многи други...</li>
+					</ul>
+					<p class="fragment">
+						Преко хиљаду електроинжењера запослених само у САД, највећи број њих у Силицијумској долини, неки чак и на руководећим местима.
+					</p>
+				</section>
+
+				<section>
+					<h3>Факултети и институти &mdash; очајни</h3>
+					<p class="fragment" style="text-align:left;">
+						Поткрепљујуће чињенице:
+						<ul style="list-style-type:disc;">
+							<li class="fragment">Иако курсеви из пројектовања интегрисаних кола и система постоје, њих махом не предају наставници с личним искуством у области.</li>
+							<li class="fragment">Нема чипова који садрже више транзистора, а испројектовани су у академским установама.</li>
+							<li class="fragment">На водећим међународним научним и стручним скуповима и конференцијама у области чипова нема српских афилијација.</li>
+							<li class="fragment">По мом мишљењу, стање је забрињавајуће...</li>
+						</ul>
+					</p>
+				</section>
+
+				<section>
+					<h3>Привредна (не)активност</h3>
+					<p class="fragment" style="text-align:left;">
+						Искључиво мање фирме, у страном власништву:
+						<ul style="list-style-type:disc;">
+							<li class="fragment">Највеће фирме до пар стотина запослених...</li>
+							<li class="fragment">Нема српских полупроводничких производа.</li>
+							<li class="fragment">(Не)Занемарљив ниво интелектуалне својине.</li>
+							<ul style="list-style-type:circle;">
+								<li class="fragment">Оно мало што постоји, не доноси профит.</a>
+							</ul>
+							<li class="fragment">Услуге, тј. изнајмљивање инжењера на сат...</li>
+							<li class="fragment">Већински верификација, мање пројектовање.</li>
+							<li class="fragment">Хроничан проблем с недостатком кадрова (наслеђен услед недовољно студената).</li>
+						</ul>
+					</p>
+				</section>
+
+				<section data-auto-animate>
+					<h3>(Не)успешни покушаји - подсетник</h3>
+					<img src="./slike/Mubadala/MubadalaMFIN.png">
+				</section>
+				<section data-auto-animate>
+					<h3>(Не)успешни покушаји - подсетник</h3>
+					<img src="./slike/Mubadala/MubadalaRTS.png">
+				</section>
+				<section data-auto-animate>
+					<h3>(Не)успешни покушаји - подсетник</h3>
+					<img src="./slike/Mubadala/MubadalaTelegraf.png">
+				</section>
+				<section data-auto-animate>
+					<h3>(Не)успешни покушаји - подсетник</h3>
+					<img src="./slike/Mubadala/MubadalaB92.png">
+				</section>
+
+				<section>
+					<h3>Покушаји &mdash; наравоученија</h3>
+					<p class="fragment" style="text-align:left;">
+						Фабрика чипова &mdash; без шанси. Слушати "струку"!
+						<b>Пројектовање</b> има макар неке изгледе за успех!
+						<ul style="list-style-type:disc;">
+							<li class="fragment">Све фирме код нас послују искључиво у областима пројектовања и верификације.</li>
+							<li class="fragment">Већина фирми данас у страном власништву.</li>
+							<li class="fragment">Ипак, већина запослених домаћи држављани.</li>
+							<li class="fragment">Неки значајни играчи променили власника.</li>
+							<li class="fragment">Ипак је то објективан показатељ вредности.</li>
+							<li class="fragment">Екосистем далеко мањи од ИКТ тј. софтвера.</li>
+							<ul style="list-style-type:circle;">
+								<li class="fragment">Сви скупа вероватно око хиљаду инжењера.</a>
+							</ul>
+						</ul>
+					</p>
+				</section>
+
+				<section>
+					<h3>Пут развоја индустрије чипова</h3>
+					<p class="fragment" style="text-align:left;">
+						<u>Стратегија развоја полупроводничке индустрије</u>
+						<ul style="list-style-type:disc;">
+							<li class="fragment">Идентификација пар кључних подобласти:</li>
+							<ul style="list-style-type:circle;">
+								<li class="fragment">Нпр. енергетска електроника, сензори, оптоелектроника/фотоника,  вештачка интелигенција, EDA софтвер, IP, и слично.</a>
+							</ul>
+							<li class="fragment">Доношење Стратегије на државном нивоу као и акционог плана за њено спровођење.</li>
+							<ul style="list-style-type:circle;">
+								<li class="fragment">налик <a href="https://pravno-informacioni-sistem.rs/eli/rep/sgrs/vlada/strategija/2025/5/1/reg">Стратегији развоја вештачке интелигенције</a> или <a href="https://pravno-informacioni-sistem.rs/eli/rep/sgrs/vlada/strategija/2016/95/1/reg">Стратегији развоја индустрије информационих технологија</a>.</li>
+								<li class="fragment">Укључивање дијаспоре у писање стратегије.</li>
+							</ul>
+						</ul>
+					</p>
+				</section>
+
+				<section>
+					<h3>Стратегија развоја ПП индустрије</h3>
+					<p class="fragment">
+						Саветодавно државно тело за њено доношење.
+					</p>
+					<span class="fragment">
+						Неопходна укљученост сва 4 кључна чиниоца:
+					</span>
+					<ul style="list-style-type:circle;">
+						<li class="fragment">држава</li>
+						<li class="fragment">представници фирми и привредних друштава</li>
+						<li class="fragment">представници академских институција</li>
+						<li class="fragment">дијаспора</li>
+					</ul>
+					<ul style="list-style-type:disc;">
+						<li class="fragment">Формирање CCC налик онима по ЕУ</li>
+						<li class="fragment">Оснивање Института за пројектовање ИК</li>
+						<li class="fragment">Реорганизација и ојачавање високог образовања у области полупроводника и укљученост привреде у факултетске курсеве.</li>
+					</ul>
+					<!--Давање неких подстицаја индустрији, макар само као за ИТ-->
+				</section>
+
+			    <section>
+      				<h1>Хвала на пажњи!</h1>
+      				<!--<p>Питања?</p>-->
+					<!--<img src="./slike/logo/unikg_logo.png" height="123">-->
+					<p>
+						<strong>Владимир Миловановић</strong>
+						<br><small><a href="mailto:vlada@kg.ac.rs">vlada@kg.ac.rs</a></small>
+						<br><small>064/5679234</small><br>
+
+						<small>Центар за интегрисане системе<br>
+						       Катедра за електротехнику и рачунарство<br>
+						       Факултет инжењерских наука Универзитета у Крагујевцу</small>
+					</p>
+    			</section>
+				<!-- 
+				<section style="text-align: left;">
+					<h1>THE END</h1>
+					<p>
+						- <a href="https://slides.com">Try the online editor</a> <br>
+						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
+					</p>
+				</section>
+				-->
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				center: false,
+				controls: true,
+				embedded: false,
+				hash: true,
+				progress: true,
+				slideNumber: 'c/t',
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMath.KaTeX ]
+			});
+
+		</script>
+
+	</body>
+</html>
